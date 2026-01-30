@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffd6e0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+  position: relative;
+}
+
+#teddy {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  position: relative;
+  height: 80px;
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#yesBtn {
+  background: #ff4d6d;
+  color: white;
+  margin-right: 20px;
+}
+
+#noBtn {
+  background: #444;
+  color: white;
+  position: absolute;
+}
+
